@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 任务明细bean -->
+	<!-- 集成方式：JobDetailFactoryBean，并且任务类需要继承QuartzJobBean-->
+	<bean id="jobDetailBean" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+		<!-- 通过任务类指定Quartz任务 -->
+		<property name="jobClass" value="com.njfu.surveypark.scheduler.CreateLogTablesTask" />
+		<property name="jobDataMap">
+			<map>
+				<entry key="logService" value-ref="logService" />
+			</map>
+		</property>
+	</bean>
+	
+	<!-- CRON触发器bean,设置Quartz任务的调度策略 -->
+	<bean id="cronTriggerBean" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="jobDetailBean" />
+		<!-- CRON表达式 -->
+		<property name="cronExpression" value="0 19 10 3 * ?" />
+	</bean>
+	
+	 <!-- 定义核心调度器 -->
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="cronTriggerBean"/>
+			</list>
+		</property>
+	</bean>
+</beans>

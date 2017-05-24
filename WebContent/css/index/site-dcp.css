@@ -1,0 +1,1079 @@
+a {
+	color: #777;
+	text-decoration: none
+}
+a:hover,
+a:focus {
+	color: #2a6496;
+	text-decoration: underline
+}
+a:focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px
+}
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: #2d2d2d
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+	font-weight: normal;
+	line-height: 1;
+	color: #999
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 34px
+}
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+	font-size: 55%
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+	margin-top: 15px;
+	margin-bottom: 15px
+}
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+	font-size: 75%
+}
+h1,
+.h1 {
+	font-size: 32px
+}
+h2,
+.h2 {
+	font-size: 30px
+}
+h3,
+.h3 {
+	font-size: 24px
+}
+h4,
+.h4 {
+	font-size: 18px
+}
+h5,
+.h5 {
+	font-size: 14px
+}
+h6,
+.h6 {
+	font-size: 12px
+}
+p {
+	margin: 15px 0
+}
+.lead {
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.4
+}
+@media (min-width: 768px) {
+	.lead {
+		font-size: 21px
+	}
+}
+small,
+.small {
+	font-size: 85%
+}
+cite {
+	font-style: normal
+}
+mark,
+.mark {
+	padding: .2em;
+	background-color: #fcf8e3
+}
+ul {
+	list-style: none
+}
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 10px
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+	margin-bottom: 0
+}
+.text-left {
+	text-align: left
+}
+.text-right {
+	text-align: right
+}
+.text-center {
+	text-align: center
+}
+.text-justify {
+	text-align: justify
+}
+.text-nowrap {
+	white-space: nowrap
+}
+.text-lowercase {
+	text-transform: lowercase
+}
+.text-uppercase {
+	text-transform: uppercase
+}
+.text-capitalize {
+	text-transform: capitalize
+}
+.text-muted {
+	color: #777
+}
+.text-blue {
+	color: #2cafe3
+}
+.text-green {
+	color: #6cb91f
+}
+.text-orange {
+	color: #ff8400
+}
+.text-yellow {
+	color: #ffae00
+}
+.text-gray {
+	color: #777
+}
+.text-red {
+	color: #eb484c
+}
+.text-white {
+	color: #fff
+}
+.btn-blue {
+	color: #fff;
+	background-color: #2cafe3;
+	border-color: #168baa
+}
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active,
+.btn-blue.active,
+.open>.dropdown-toggle.btn-blue {
+	color: #fff;
+	background-color: #1a98ca;
+	border-color: #005a72
+}
+.btn-blue:active,
+.btn-blue.active,
+.open>.dropdown-toggle.btn-blue {
+	background-image: none
+}
+.btn-blue.disabled,
+.btn-blue[disabled],
+fieldset[disabled] .btn-blue,
+.btn-blue.disabled:hover,
+.btn-blue[disabled]:hover,
+fieldset[disabled] .btn-blue:hover,
+.btn-blue.disabled:focus,
+.btn-blue[disabled]:focus,
+fieldset[disabled] .btn-blue:focus,
+.btn-blue.disabled:active,
+.btn-blue[disabled]:active,
+fieldset[disabled] .btn-blue:active,
+.btn-blue.disabled.active,
+.btn-blue[disabled].active,
+fieldset[disabled] .btn-blue.active {
+	background-color: #1a98ca;
+	border-color: #005a72
+}
+.btn-blue .badge {
+	color: #1a98ca;
+	background-color: #fff
+}
+.btn-green {
+	color: #fff;
+	background-color: #6cb91f;
+	border-color: #5da614
+}
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active,
+.open>.dropdown-toggle.btn-green {
+	color: #fff;
+	background-color: #4f920b;
+	border-color: #3f7707
+}
+.btn-green:active,
+.btn-green.active,
+.open>.dropdown-toggle.btn-green {
+	background-image: none
+}
+.btn-green.disabled,
+.btn-green[disabled],
+fieldset[disabled] .btn-green,
+.btn-green.disabled:hover,
+.btn-green[disabled]:hover,
+fieldset[disabled] .btn-green:hover,
+.btn-green.disabled:focus,
+.btn-green[disabled]:focus,
+fieldset[disabled] .btn-green:focus,
+.btn-green.disabled:active,
+.btn-green[disabled]:active,
+fieldset[disabled] .btn-green:active,
+.btn-green.disabled.active,
+.btn-green[disabled].active,
+fieldset[disabled] .btn-green.active {
+	background-color: #4f920b;
+	border-color: #3f7707
+}
+.btn-green .badge {
+	color: #4f920b;
+	background-color: #fff
+}
+.btn-orange {
+	color: #fff;
+	background-color: #f68b1f;
+	border-color: #b58410
+}
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange.active,
+.open>.dropdown-toggle.btn-orange {
+	color: #fff;
+	background-color: #e29f1e;
+	border-color: #b58410
+}
+.btn-orange:active,
+.btn-orange.active,
+.open>.dropdown-toggle.btn-orange {
+	background-image: none
+}
+.btn-orange.disabled,
+.btn-orange[disabled],
+fieldset[disabled] .btn-orange,
+.btn-orange.disabled:hover,
+.btn-orange[disabled]:hover,
+fieldset[disabled] .btn-orange:hover,
+.btn-orange.disabled:focus,
+.btn-orange[disabled]:focus,
+fieldset[disabled] .btn-orange:focus,
+.btn-orange.disabled:active,
+.btn-orange[disabled]:active,
+fieldset[disabled] .btn-orange:active,
+.btn-orange.disabled.active,
+.btn-orange[disabled].active,
+fieldset[disabled] .btn-orange.active {
+	background-color: #e29f1e;
+	border-color: #b58410
+}
+.btn-orange .badge {
+	color: #4f920b;
+	background-color: #fff
+}
+.btn-yellow {
+	color: #fff;
+	background-color: #fdd13c;
+	border-color: #ffae00
+}
+.btn-yellow:hover,
+.btn-yellow:focus,
+.btn-yellow:active,
+.btn-yellow.active,
+.open>.dropdown-toggle.btn-yellow {
+	color: #fff;
+	background-color: #d1a309;
+	border-color: #ffae00
+}
+.btn-yellow:active,
+.btn-yellow.active,
+.open>.dropdown-toggle.btn-yellow {
+	background-image: none
+}
+.btn-yellow.disabled,
+.btn-yellow[disabled],
+fieldset[disabled] .btn-yellow,
+.btn-yellow.disabled:hover,
+.btn-yellow[disabled]:hover,
+fieldset[disabled] .btn-yellow:hover,
+.btn-yellow.disabled:focus,
+.btn-yellow[disabled]:focus,
+fieldset[disabled] .btn-yellow:focus,
+.btn-orange.disabled:active,
+.btn-orange[disabled]:active,
+fieldset[disabled] .btn-yellow:active,
+.btn-yellow.disabled.active,
+.btn-yellow[disabled].active,
+fieldset[disabled] .btn-yellow.active {
+	background-color: #d1a309;
+	border-color: #ffae00
+}
+.btn-yellow .badge {
+	color: #d1a309;
+	background-color: #fff
+}
+.btn-red {
+	color: #fff;
+	background-color: #eb484c;
+	border-color: #ba0812
+}
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active,
+.btn-red.active,
+.open>.dropdown-toggle.btn-red {
+	color: #fff;
+	background-color: #af141b;
+	border-color: #78060c
+}
+.btn-red:active,
+.btn-red.active,
+.open>.dropdown-toggle.btn-red {
+	background-image: none
+}
+.btn-red.disabled,
+.btn-red[disabled],
+fieldset[disabled] .btn-red,
+.btn-red.disabled:hover,
+.btn-red[disabled]:hover,
+fieldset[disabled] .btn-red:hover,
+.btn-red.disabled:focus,
+.btn-red[disabled]:focus,
+fieldset[disabled] .btn-red:focus,
+.btn-red.disabled:active,
+.btn-red[disabled]:active,
+fieldset[disabled] .btn-red:active,
+.btn-red.disabled.active,
+.btn-red[disabled].active,
+fieldset[disabled] .btn-red.active {
+	background-color: #af141b;
+	border-color: #78060c
+}
+.btn-red .badge {
+	color: #af141b;
+	background-color: #fff
+}
+.btn-purple {
+	color: #fff;
+	background-color: #8a5bb7;
+	border-color: #6310b3
+}
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple.active,
+.open>.dropdown-toggle.btn-purple {
+	color: #fff;
+	background-color: #5c3087;
+	border-color: #30015d
+}
+.btn-purple:active,
+.btn-purple.active,
+.open>.dropdown-toggle.btn-purple {
+	background-image: none
+}
+.btn-purple.disabled,
+.btn-purple[disabled],
+fieldset[disabled] .btn-purple,
+.btn-purple.disabled:hover,
+.btn-purple[disabled]:hover,
+fieldset[disabled] .btn-purple:hover,
+.btn-purple.disabled:focus,
+.btn-purple[disabled]:focus,
+fieldset[disabled] .btn-purple:focus,
+.btn-purple.disabled:active,
+.btn-purple[disabled]:active,
+fieldset[disabled] .btn-purple:active,
+.btn-purple.disabled.active,
+.btn-purple[disabled].active,
+fieldset[disabled] .btn-purple.active {
+	background-color: #5c3087;
+	border-color: #30015d
+}
+.btn-purple .badge {
+	color: #5c3087;
+	background-color: #fff
+}
+.btn-lg,
+.btn-group-lg>.btn {
+	padding: 5px 30px;
+	font-size: 24px;
+	line-height: 1.33;
+	border-radius: 6px
+}
+.btn-sm,
+.btn-group-sm>.btn {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 6px
+}
+.btn-xs,
+.btn-group-xs>.btn {
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 6px
+}
+header {
+	background: none repeat scroll 0 0 #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+header ul li {
+	margin-left: 10px;
+	margin-right: 10px
+}
+header .navbar-default .navbar-nav>li>a {
+	color: #fff
+}
+header .navbar-brand {
+	padding: 0;
+	margin: 0
+}
+header .navbar-nav>li>a.btn {
+	padding: 10px 20px;
+	margin: 5px;
+	color: #fff
+}
+.navbar {
+	margin-bottom: 0
+}
+.subtitle {
+	margin: 8px 0;
+	font-size: 18px;
+	color: #9d9d9d;
+	font-weight: 500
+}
+section {
+	padding: 30px 0
+}
+section p {
+	line-height: 32px
+}
+.white {
+	background: #fff
+}
+.gray {
+	background: #eee
+}
+.panel-green {
+	background: #79bb37;
+	color: #fff
+}
+.panel-green h1,
+.panel-green h4 {
+	color: #fff
+}
+.panel-green small {
+	color: #fff
+}
+.heading {
+	padding: 30px 0;
+	margin-bottom: 10px
+}
+.bg-orange {
+	background: #f68c1f;
+	color: #fff
+}
+.bg-orange h1 {
+	color: #fff
+}
+.bg-blue {
+	background: #4fc1e9;
+	color: #fff
+}
+.bg-blue h1 {
+	color: #fff
+}
+.bg-green {
+	background: #79bb37;
+	color: #fff
+}
+.bg-green h1 {
+	color: #fff
+}
+.bg-deepgray {
+	background: #3b3b3b;
+	color: #fff
+}
+.bg-deepgray h3,
+.bg-deepgray h1 {
+	color: #fff
+}
+.bg-deepgray a {
+	color: #fff;
+	text-decoration: underline
+}
+.bg-purple {
+	background: #8a5bb7;
+	color: #fff
+}
+.bg-purple h3,
+.bg-purple h4 {
+	color: #eddbff
+}
+.bg-purple a {
+	color: #eddbff;
+	text-decoration: underline
+}
+h1.page-header {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 20px 0
+}
+footer {
+	background-color: #f1f1f1;
+	border-top: 1px solid #dedede;
+	padding: 20px 0;
+	color: #777
+}
+footer a {
+	color: #777
+}
+footer a:hover {
+	color: #777;
+	text-decoration: underline
+}
+footer strong {
+	color: #555;
+	font-size: 16px
+}
+footer .site-map {
+	padding: 20px 0;
+	margin: 0
+}
+footer address {
+	padding: 20px 40px;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede
+}
+footer address p {
+	margin: 20px 0;
+	line-height: 28px
+}
+footer .weixin {
+	text-align: center;
+	padding: 20px
+}
+footer ul.child {
+	clear: both;
+	margin: 0;
+	padding: 0
+}
+footer ul.child li {
+	display: block;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: left
+}
+footer .copyright {
+	color: #999;
+	font-size: 90%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px
+}
+footer .copyright a {
+	color: #999;
+	margin: 0 5px
+}
+body {
+	background: #f6f6f6
+}
+.banner {
+	height: 395px
+}
+.banner .green {
+	background-image: url("/images/site/dcp/banner_01.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #79bb37;
+	height: 395px;
+	padding: 10px 0;
+	position: relative
+}
+.banner .green h2 {
+	color: #fff
+}
+.banner .green h2 small {
+	color: #fff
+}
+.banner .green a {
+	display: block;
+	width: 980px;
+	height: 265px;
+	margin: 0 auto
+}
+.banner .blue {
+	background-image: url("/images/site/dcp/banner_02.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #4fc1e9;
+	background-attachment: scroll;
+	background-clip: border-box;
+	height: 395px;
+	padding: 10px 0;
+	position: relative
+}
+.banner .blue h1 {
+	color: #fff
+}
+.banner .blue a {
+	display: block;
+	width: 980px;
+	height: 265px;
+	margin: 0 auto
+}
+.banner .purple {
+	background-image: url("/images/site/dcp/banner_03.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #8a5bb7;
+	background-attachment: scroll;
+	background-clip: border-box;
+	height: 395px;
+	padding: 10px 0;
+	position: relative
+}
+.banner .purple h1 {
+	color: #fff
+}
+.banner .purple h3 {
+	color: #fff;
+	padding-top: 30px;
+	line-height: 40px
+}
+.banner .purple a {
+	color: #fff
+}
+.banner .red {
+	background-image: url("/images/site/dcp/banner_05.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #b20000;
+	background-attachment: scroll;
+	background-clip: border-box;
+	height: 395px;
+	padding: 10px 0
+}
+.banner .carousel {
+	min-height: 395px
+}
+.banner .carousel-indicators {
+	bottom: 10px
+}
+.banner .carousel-indicators {
+	list-style: none outside none;
+	padding-left: 0;
+	text-align: center;
+	z-index: 12
+}
+.banner .carousel-indicators .active {
+	background-color: #b6b6b6;
+	height: 12px;
+	margin: 0 2px;
+	width: 12px
+}
+.banner .carousel-indicators li {
+	background-color: #dedede;
+	border-radius: 15px;
+	cursor: pointer;
+	display: inline-block;
+	height: 12px;
+	margin: 0 2px;
+	text-indent: -999px;
+	width: 12px;
+	border: 0
+}
+.banner .carousel-control.left,
+.banner .carousel-control.right {
+	background: none
+}
+.counter {
+	min-height: 72px;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #888
+}
+.counter .lead {
+	font-size: 28px;
+	margin: 10px;
+	color: #2d2d2d
+}
+.counter .btn {
+	margin-left: 120px
+}
+.intro p {
+	line-height: 22px;
+	margin-top: 20px
+}
+.intro-top {
+	background-color: #79bb37;
+	background-image: url("/images/site/dcp/intro_topbg.gif");
+	background-repeat: no-repeat;
+	background-position: center
+}
+.intro-top h1 {
+	color: #fff
+}
+.customer-top {
+	background-color: #47bee9;
+	background-image: url("/images/site/dcp/customer-topbg.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff
+}
+.customer-top h1 {
+	color: #fff
+}
+.price-top {
+	background-color: #f68c1f;
+	background-image: url("/images/site/dcp/price-topbg.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff
+}
+.price-top h1 {
+	color: #fff
+}
+.users {
+	padding: 30px 10px;
+	text-align: center
+}
+.users a {
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 8px;
+	color: #717171;
+	border: 1px solid #d7d7d7;
+	padding: 10px;
+	padding-top: 34px;
+	border-radius: 100%;
+	text-align: center;
+	width: 110px;
+	height: 110px
+}
+.users a:hover {
+	text-decoration: none;
+	border: 1px solid #76a41d;
+	color: #000
+}
+.cases {
+	position: relative
+}
+.cases section a {
+	text-decoration: underline
+}
+.stories span.logos {
+	display: block;
+	height: 90px;
+	margin: 0 auto;
+	width: 140px;
+	padding-top: 10px;
+	background-color: #fff;
+	text-align: center
+}
+.customers .carousel {
+	min-height: 240px
+}
+.customers .carousel-indicators {
+	top: 205px;
+	list-style: none outside none;
+	padding-left: 0;
+	text-align: center;
+	z-index: 15
+}
+.customers .carousel-indicators .active {
+	background-color: #b6b6b6;
+	height: 15px;
+	margin: 0;
+	width: 15px
+}
+.customers .carousel-indicators li {
+	background-color: #dedede;
+	border-radius: 15px;
+	cursor: pointer;
+	display: inline-block;
+	height: 15px;
+	margin: 0 5px;
+	text-indent: -999px;
+	width: 15px
+}
+@media (min-width: 768px) {
+	.customers .customer-logo a {
+		margin: 15px 0
+	}
+}
+@media (min-width: 992px) {
+	.customers .customer-logo a {
+		margin: 15px 0
+	}
+}
+@media (min-width: 1200px) {
+	.customers .customer-logo a {
+		margin: 15px 4px
+	}
+}
+.customers .customer-logo {
+	text-align: center
+}
+.customers .customer-logo a {
+	display: inline-block;
+	background: url("/images/site/dcp/index-logo-g.gif") no-repeat center
+}
+.customers .customer-logo a:hover {
+	background: url("/images/site/dcp/index-logo.gif")
+}
+.customers .customer-logo a.logo-dnspod {
+	background-position: 0 0;
+	width: 153px;
+	height: 63px
+}
+.customers .customer-logo a.logo-wdj {
+	width: 137px;
+	height: 63px;
+	background-position: -177px 0
+}
+.customers .customer-logo a.logo-guokr {
+	width: 137px;
+	height: 63px;
+	background-position: -342px 0
+}
+.customers .customer-logo a.logo-qy {
+	width: 156px;
+	height: 63px;
+	background-position: -512px 0
+}
+.customers .customer-logo a.logo-xsj {
+	width: 131px;
+	height: 63px;
+	background-position: -705px 0
+}
+.customers .customer-logo a.logo-yygame {
+	width: 147px;
+	height: 63px;
+	background-position: -878px 0
+}
+.customers .customer-logo a.logo-jvc {
+	width: 129px;
+	height: 63px;
+	background-position: -24px -103px
+}
+.customers .customer-logo a.logo-officemate {
+	width: 131px;
+	height: 63px;
+	background-position: -211px -103px
+}
+.customers .customer-logo a.logo-wcf {
+	width: 182px;
+	height: 63px;
+	background-position: -375px -103px
+}
+.customers .customer-logo a.logo-sdairlines {
+	width: 197px;
+	height: 63px;
+	background-position: -622px -103px
+}
+.customers .customer-logo a.logo-ng {
+	width: 161px;
+	height: 63px;
+	background-position: -864px -103px
+}
+.survey-style {
+	background-color: #ebecee
+}
+.report {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-image: url("/images/site/dcp/report-bg.gif");
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	background-size: 100% auto !important;
+	width: 100%;
+	z-index: 10;
+	padding-top: 130px;
+	padding-bottom: 120px;
+	position: relative
+}
+@media (min-width: 768px) {
+	.report .left-img {
+		display: none
+	}
+	.report .right-img {
+		display: none
+	}
+}
+@media (min-width: 992px) {
+	.report .left-img {
+		display: block;
+		position: absolute;
+		left: -120px;
+		top: 136px;
+		border: 3px solid #eee;
+		background-image: url("/images/site/dcp/report-left.jpg");
+		width: 363px;
+		height: 283px
+	}
+	.report .right-img {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 136px;
+		border: 3px solid #eee;
+		background-image: url("/images/site/dcp/report-right.jpg");
+		width: 263px;
+		height: 283px
+	}
+}
+@media (min-width: 1200px) {
+	.report .left-img {
+		display: block;
+		position: absolute;
+		left: -120px;
+		top: 126px;
+		border: 3px solid #eee;
+		background-image: url("/images/site/dcp/report-left.jpg");
+		width: 463px;
+		height: 383px
+	}
+	.report .right-img {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 126px;
+		border: 3px solid #eee;
+		background-image: url("/images/site/dcp/report-right.jpg");
+		width: 363px;
+		height: 383px
+	}
+}
+section.tour-content {
+	padding-bottom: 0
+}
+section.tour-content .carousel-inner {
+	width: 650px;
+	margin: 0 auto
+}
+section.tour-content .carousel-inner .item img {
+	margin: 0 auto
+}
+section.tour-content .carousel-control {
+	color: #999;
+	width: 50%
+}
+section.tour-content .carousel-control.left,
+section.tour-content .carousel-control.right {
+	background: none
+}
+.price .btn {
+	border-radius: 20px
+}
+.price ul {
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5
+}
+.price ul li {
+	background-color: rgba(0, 0, 0, 0.03);
+	margin: 0;
+	margin-bottom: 2px;
+	padding: 14px 10px;
+	text-align: left
+}
+.price .gray {
+	color: #777
+}
+.verify {
+	padding: 120px 0
+}
+.business .panel {
+	background: none
+}
+.bs-service {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url("/images/site/dcp/business_service_bg.gif");
+	background-repeat: no-repeat;
+	background-position: center
+}
+.customer-logos img {
+	height: 40px;
+	margin: 5px;
+	border: 0
+}

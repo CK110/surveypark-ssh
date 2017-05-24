@@ -1,0 +1,8 @@
+注意：
+1.如果是新建表，先执行surveypark/src/util/ExtractAllRightsUtil.java 导出所有权限
+2.tomcat设置 <Connector port="8080" protocol="HTTP/1.1" 
+               connectionTimeout="20000" 
+               redirectPort="8443" URIEncoding="UTF-8" />
+3.系统密码是MD5加密的
+  管理员：admin@njfu.com ，密码 admin
+  普通用户：chenkai@qq.com ,密码 123 

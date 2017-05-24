@@ -1,0 +1,114 @@
+body {
+	background-color: #fff
+}
+.header {
+	padding: 10px 0
+}
+.stage {
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+	padding: 10px 40px 40px 40px;
+	background-color: #fcfcfc;
+	border: 1px solid #ececec;
+	border-radius: 8px
+}
+.stage form {
+	margin: 30px 0
+}
+.stage button {
+	margin: 20px 0
+}
+@media (min-width: 992px) {
+	.login-layout {
+		width: 400px;
+		margin: 0 auto
+	}
+}
+@media (min-width: 1200px) {
+	.login-layout {
+		width: 400px;
+		margin: 0 auto
+	}
+}
+.captcha img {
+	width: 100px;
+	padding: 0;
+	margin: 0
+}
+.form-group .error-prompt {
+	visibility: hidden;
+	padding-left: 5px
+}
+.form-group.has-error .error-prompt {
+	visibility: visible
+}
+.input-group-addon {
+	background-color: #fff
+}
+.oauth {
+	padding: 20px 0
+}
+.oauth .icon {
+	padding: 10px
+}
+.oauth a {
+	display: inline-block;
+	cursor: pointer;
+	margin: 0 20px;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #ccc;
+	border-radius: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%
+}
+.oauth .sina {
+	background-image: url(/images/oauth/weibo-gray.gif)
+}
+.oauth a:hover.sina {
+	background-image: url(/images/oauth/weibo.gif)
+}
+.oauth .qqzone {
+	background-image: url(/images/oauth/qq-gray.gif)
+}
+.oauth a:hover.qqzone {
+	background-image: url(/images/oauth/qq.gif)
+}
+.oauth .txweibo {
+	background-image: url(/images/oauth/txwb-gray.gif)
+}
+.oauth a:hover.txweibo {
+	background-image: url(/images/oauth/txwb.gif)
+}
+.form-group .control-label {
+	text-align: left;
+	padding-bottom: 5px;
+	font-weight: normal;
+	font-size: 14px;
+	color: #707070
+}
+.input-group-addon {
+	color: #c0c0c0
+}
+.has-error .form-control:focus+.input-group-addon {
+	color: #b30000
+}
+.form-control {
+	border-right: 0
+}
+.form-control::-moz-placeholder {
+	color: #999
+}
+.form-control:focus+.input-group-addon {
+	color: #666
+}
+.password {
+	width: 400px;
+	margin: 30px auto;
+	text-align: center;
+	line-height: 40px;
+	padding-top: 20px
+}
+.password input {
+	margin: 10px 0
+}

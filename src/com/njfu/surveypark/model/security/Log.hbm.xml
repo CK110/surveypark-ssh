@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-3-27 15:50:55 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.njfu.surveypark.model.security.Log" table="logs">
+        <id name="id" type="java.lang.String">
+            <column name="id" />
+            <generator class="uuid" /> <!-- uuid一般用于集群计算环境。 -->
+        </id>
+        <property name="operator" type="java.lang.String">
+            <column name="operator" length="100" />
+        </property>
+        <property name="operName" type="java.lang.String">
+            <column name="opername" length="100"/>
+        </property>
+        <property name="operParams" type="java.lang.String">
+            <column name="operparams" length="500"/>
+        </property>
+        <property name="operResult" type="java.lang.String">
+            <column name="operresult" length="500" />
+        </property>
+        <property name="resultMsg" type="java.lang.String">
+            <column name="resultmsg" length="500"/>
+        </property>
+        <property name="operTime" type="timestamp">
+            <column name="opertime" />
+        </property>
+    </class>
+</hibernate-mapping>
