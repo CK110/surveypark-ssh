@@ -25,6 +25,7 @@ public class TestUserService {
 		u.setPassword("123456");
 		u.setNickName("stone");
 		us.saveEntity(u);
+		System.out.println('2');
 	}
 
 }
